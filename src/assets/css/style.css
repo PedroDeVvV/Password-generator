@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(360deg, #343499, #00d4ff);
+  background-attachment: fixed;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.senha-gerada {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 24px 0px;
+  border-radius: 100px;
+  font-weight: bold;
+  border: solid 1px black;
+}
+
+.qtd-caracteres {
+  text-align: center;
+  border-radius: 10px;
+  border: solid 1px black;
+}
+
+.copiar {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.copiar:hover {
+  color: blue;
+}
+
+.repeat {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+input, button {
+  cursor: pointer;
+}
+
+.repeat:hover {
+  color: blue;
+}
+
+.gerar-senha {
+  background-color: #00d4ff;
+  border-radius: 100px;
+  border: solid 1px black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gerar-senha:hover {
+  background-color: darkblue;
+  color: white;
+}
